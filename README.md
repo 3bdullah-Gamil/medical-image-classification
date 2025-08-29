@@ -44,24 +44,19 @@ The project Uses transfer learning with VGG16, the model achieves robust perform
 ```
 medical-image-classification/
 ├── 📁 data/
-│   ├── 📁 raw/                 # Raw medical images
-│   ├── 📁 processed/           # Preprocessed datasets
-│   └── 📁 splits/              # Train/validation/test splits
+│   ├── 📁 Breast Cancer Patients MRI's/                 
+│   ├── 📁 brain-tumor-mri-dataset/      
+│   ├── 📁 liver/          
+│   └── 📁 cardiomegaly-disease-prediction-using-cnn/
 ├── 📁 models/
-│   ├── 📁 saved_models/        # Trained model files
-│   ├── 📁 checkpoints/         # Training checkpoints
-│   └── model_architecture.py   # Model definition
-├── 📁 src/
-│   ├── 📁 data/                # Data processing utilities
-│   ├── 📁 models/              # Model training/evaluation
-│   ├── 📁 visualization/       # Plotting and visualization
-│   └── 📁 gui/                 # GUI implementation
-├── 📁 notebooks/               # Jupyter notebooks
-├── 📁 scripts/                 # Utility scripts
-├── 📁 tests/                   # Unit tests
+│   ├── trained_model.h5        # Trained model 
+│   ├── training_script.ipynb              
+│   └── vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5  
+├── 📁 gui/ 
+│   ├── 📁 icons/                
+│   └──  gui_script.py       
 ├── 📁 docs/                    # Documentation
 ├── requirements.txt
-├── setup.py
 └── README.md
 ```
 

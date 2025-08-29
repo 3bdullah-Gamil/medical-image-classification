@@ -6,8 +6,7 @@
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 > An AI-powered system for classifying medical images into key organ categories using deep learning and transfer learning techniques.
-<img src="https://github.com/abdullah-gamil05/ImageBasedAnatomy_Tasks/blob/main/assets/prediction1.png" alt="Result 1" width="600" />
-
+<img src="https://github.com/3bdullah-Gamil/medical-image-classification/blob/main/results/prediction1.png" alt="Result 1" width="600" />
 ## 🎯 Overview
 
 This project implements a robust AI model capable of classifying medical images into categories of key organs including **breast**, **brain**, **kidney**, and **lungs**. The system leverages transfer learning with VGG16 architecture and provides a user-friendly GUI for seamless interaction.
